@@ -1,0 +1,43 @@
+#clockcontainer
+{
+    display: block;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(cimage.jpg) no-repeat; 
+    background-size: 100%; 
+    position: relative;
+    
+    
+}
+#hour, #minute, #second
+{
+position: absolute;
+background-color: black;
+border-radius: 8px;
+transform-origin:bottom;
+}
+#hour
+{
+    height: 22%;
+    width: 1.7%;
+    top:27.6%;
+    left:49%
+
+}
+#minute
+{
+height: 29.5%;
+width: 1.4%;
+top:20.1%;
+left:49.1%
+
+}
+#second
+{
+    height: 32%;
+    width: 1.1%;
+    top:17.5%;
+    left:49.24%
+}
+
